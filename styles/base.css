@@ -11,9 +11,10 @@ h1 {
   padding-top: 20px;
 }
 
-p {
+.input-label {
   margin-top: 10px;
   padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 select {
