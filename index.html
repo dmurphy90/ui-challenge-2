@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UI Challenge 2</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/module.css">
+  </head>
+  <body>
+    <header>
+      <h1>UI Challenge - Custom Form Elements</h1>
+    </header>
+    <main>
+      <label>
+        <p>text input</p><br>
+          <input type="text" class="text-input" placeholder="placeholder text" required>
+      </label>
+      <label>
+        <p>text input w/ validation error</p><br>
+          <input type="text" class="text-input" placeholder="placeholder text" required>
+      </label>
+      <fieldset>
+        <p>select box</p>
+        <input type="text" class="text-input" id="select-closed" placeholder="please select an option..." readonly>
+        <div class="arrow-btn-1"></div>
+      </fieldset>
+      <fieldset>
+        <input type="text" class="text-input" id="select-open">
+        <div class="arrow-btn-2"></div>
+          <p class="light-option"> option 1</p>
+          <p class="dark-option"> option 2</p>
+          <p class="light-option"> option 3</p>
+          <p class="dark-option"> option 4</p>
+          <p class="light-option"> option 5</p>
+      </fieldset>
+      <label>
+        <p>checkbox</p><br>
+          <section id="checkboxes">
+            <div class="checkbox"></div>
+            <div class="checkbox"></div>
+          </section>
+      </label>
+      <label>
+        <p>radio</p><br>
+          <section id="radios">
+            <div class="radio-btn"></div>
+            <div class="radio-btn"></div>
+          </section>
+      </label>
+      <label>
+        <p>buttons</p><br>
+          <button name="submitone" class="submit-btn">submit</submit>
+          <button name="submittwo" class="submit-btn">submit</submit>
+      </label>
+    </main>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.radio-btn, .checkbox, .arrow-btn-1, .arrow-btn-2 {
+  display: inline-block;
+  background-image: url('../images/form-elements-sprite.png');
+  background-image: no-repeat;
+}
+
+.arrow-btn-1 {
+  background-position: -1143px -280px;
+  width: 75px;
+  height: 75px;
+}
+
+.arrow-btn-2 {
+  background-position: -1036px -281px;
+  width: 75px;
+  height: 75px;
+}
+
+.checkbox:first-of-type {
+  background-position: -159px -239px;
+  width: 160px;
+  height: 160px;
+}
+
+.checkbox:last-of-type {
+  background-position: -382px -239px;
+  width: 160px;
+  height: 160px;
+}
+
+.radio-btn:first-of-type {
+  background-position: -582px -241px;
+  width: 167px;
+  height: 168px;
+}
+
+.radio-btn:last-of-type {
+  background-position: -813px -242px;
+  width: 167px;
+  height: 167px;
+}

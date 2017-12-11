@@ -1,0 +1,30 @@
+.text-input, select {
+  width: 300px;
+  height: 30px;
+}
+
+#checkboxes {
+  display: inline-block;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 35px;
+  outline: none;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+button.submit-btn:last-child{
+  margin-left: 20px;
+  background-color: #000;
+  color: white;
+}
+
+.light-option {
+  background-color: lightgray;
+}
+
+.dark-option {
+  background-color: darkgray;
+}
